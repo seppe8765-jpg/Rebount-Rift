@@ -1,14 +1,7 @@
 {
-  "name": "parry-arena",
+  "name": "rebound-rift-server",
   "version": "1.0.0",
-  "private": true,
-  "engines": { "node": ">=18" },
   "type": "module",
-  "description": "Parry Arena - fast projectile-parry arena game (HTML5 / Three.js)",
-  "scripts": {
-    "build": "node build.mjs",
-    "test": "node tests/run-all.mjs",
-    "start": "node server/index.js",
-    "server": "node server/index.js"
-  }
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" }
 }
